@@ -1,0 +1,76 @@
+body{
+    font-family: sans-serif;
+}
+.font-primary{
+    color: #00acae;
+}
+.title-icon{
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    font-size: 13px;
+}
+h2{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+a.font-black{
+    color: #000 !important;
+}
+/**************************
+
+ABOUT
+
+**************************/
+#about{
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+}
+#about img{
+    border-radius: 125%;
+    width: 120px;
+    margin-bottom: 9px;
+}
+.name{
+    font-size: 20px;
+}
+.vocation{
+    font-size: 17px;
+    color: #A8A8AB;
+    margin-bottom:10px;
+}
+.skills{
+    font-size: 14px;
+    color: #00acae;
+    margin-bottom: 10px;
+}
+.email{
+    margin-top: 5px;
+    font-size: 18px;
+}
+.icons{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.icons a{
+    color: #00acae;
+}
+/***********************
+
+PROJECT
+
+***********************/
+#project{
+    margin: 60px auto;
+    width: 80%;
+}
+#project p{
+    text-align: left;
+    margin-left: 6px;
+}
+.card-title{
+    font-weight: bold;
+}
