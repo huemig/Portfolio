@@ -1,76 +1,116 @@
-body{
-    font-family: sans-serif;
+body {
+  font-family: sans-serif;
 }
-.font-primary{
-    color: #00acae;
+.font-primary {
+  color: #00acae;
 }
-.title-icon{
-    font-size: 20px;
-    font-weight: bold;
+.title-icon {
+  font-size: 20px;
+  font-weight: bold;
 }
-p{
-    font-size: 13px;
+p {
+  font-size: 13px;
 }
-h2{
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 20px;
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
-a.font-black{
-    color: #000 !important;
+a.font-black {
+  color: #000 !important;
 }
 /**************************
 
 ABOUT
 
 **************************/
-#about{
-    margin: 60px auto;
-    max-width: 400px;
-    text-align: center;
+#about {
+  margin: 60px auto;
+  max-width: 400px;
+  text-align: center;
 }
-#about img{
-    border-radius: 125%;
-    width: 120px;
-    margin-bottom: 9px;
+#about img {
+  border-radius: 125%;
+  width: 120px;
+  margin-bottom: 9px;
 }
-.name{
-    font-size: 20px;
+.name {
+  font-size: 20px;
 }
-.vocation{
-    font-size: 17px;
-    color: #A8A8AB;
-    margin-bottom:10px;
+.vocation {
+  font-size: 17px;
+  color: #a8a8ab;
+  margin-bottom: 10px;
 }
-.skills{
-    font-size: 14px;
-    color: #00acae;
-    margin-bottom: 10px;
+.skills {
+  font-size: 14px;
+  color: #00acae;
+  margin-bottom: 10px;
 }
-.email{
-    margin-top: 5px;
-    font-size: 18px;
+.email {
+  margin-top: 5px;
+  font-size: 18px;
 }
-.icons{
-    margin-top: 20px;
-    font-size: 20px;
+.icons {
+  margin-top: 20px;
+  font-size: 20px;
 }
-.icons a{
-    color: #00acae;
+.icons a {
+  color: #00acae;
 }
 /***********************
 
 PROJECT
 
 ***********************/
-#project{
-    margin: 60px auto;
-    width: 80%;
+#project {
+  margin: 60px auto;
+  width: 80%;
 }
-#project p{
-    text-align: left;
-    margin-left: 6px;
+#project p {
+  text-align: left;
+  margin-left: 6px;
 }
-.card-title{
-    font-weight: bold;
+.card-title {
+  font-weight: bold;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%);
+  width: 8%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 50%;
+}
+.carousel-item img {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.carousel {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.card-body {
+  text-align: center !important;
+  margin-top: 10px;
+}
+.card-text h5 {
+  text-align: center;
+}
+
+.card-body h5,
+.card-body p,
+.card-body small {
+  display: block;
+  text-align: center !important; /* Ensures paragraphs and small text are centered */
+}
+
+.card-body .btn {
+  display: inline-block; /* Centers buttons */
+  margin: 5px; /* Adds space between buttons */
 }
